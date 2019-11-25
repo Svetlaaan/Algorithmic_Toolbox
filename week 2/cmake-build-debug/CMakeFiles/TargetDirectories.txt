@@ -1,0 +1,3 @@
+C:/Users/xiaom/Desktop/coursera_exerc/week 2/cmake-build-debug/CMakeFiles/coursera_exerc.dir
+C:/Users/xiaom/Desktop/coursera_exerc/week 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/xiaom/Desktop/coursera_exerc/week 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

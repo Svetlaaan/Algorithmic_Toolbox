@@ -1,0 +1,54 @@
+#include <iostream>
+#include <vector>
+
+using std::cin;
+using std::cout;
+using std::vector;
+using std::max;
+
+int find(int i, vector<int> & stops, int currRef, int tank, int numRef, int dist, int n)
+{
+    while (i <= n)
+    {
+        while (i <= n && (stops[i] - currRef <= tank))  //? (currRef = stops[i]) && (numRef++) : 0;
+            i++;
+        i--;
+        currRef = stops[i];
+        if (currRef == dist)
+            return numRef;
+        numRef++;
+    }
+    return currRef;
+}
+
+int compute_min_refills(int dist, int tank, vector<int> & stops, int n)
+{
+   int numRef = 0;
+   int currRef = 0;
+   int i = 0;
+
+   if (n <= 300 && n >= 1) {
+       if (((stops[n - 1] - stops[n - 2]) > tank) || (stops[n] - stops[n - 1] > tank))
+           return -1;
+       numRef = find(i, stops, currRef, tank, numRef, dist, n);
+   }
+    return numRef;
+}
+
+
+int main()
+{
+    int d = 0;
+    cin >> d;
+    int m = 0;
+    cin >> m;
+    int n = 0;
+    cin >> n;
+
+    vector<int> stops(n + 1);
+    for (size_t i = 0; i < n; ++i)
+        cin >> stops.at(i);
+    stops.at(n) = d;
+    cout << compute_min_refills(d, m, stops, n) << "\n";
+    return 0;
+}
