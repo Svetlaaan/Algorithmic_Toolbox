@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/xiaom/Desktop/coursera_exerc/Algorithmic_Toolbox/week 5/money_change.cpp
+iostream
+-
+climits
+-
+vector
+-
+

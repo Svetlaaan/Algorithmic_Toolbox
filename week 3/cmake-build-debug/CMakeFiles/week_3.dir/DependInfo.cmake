@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/xiaom/Desktop/coursera_exerc/week 3/3_car_fueling.cpp" "C:/Users/xiaom/Desktop/coursera_exerc/week 3/cmake-build-debug/CMakeFiles/week_3.dir/3_car_fueling.cpp.obj"
+  "C:/Users/xiaom/Desktop/coursera_exerc/Algorithmic_Toolbox/week 3/6_maximum_number_of_prizes.cpp" "C:/Users/xiaom/Desktop/coursera_exerc/Algorithmic_Toolbox/week 3/cmake-build-debug/CMakeFiles/week_3.dir/6_maximum_number_of_prizes.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

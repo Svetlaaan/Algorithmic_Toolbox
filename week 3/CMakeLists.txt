@@ -4,4 +4,5 @@ project(week_3)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(week_3
-      3_car_fueling.cpp)
+       6_maximum_number_of_prizes.cpp
+        )

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/week_3.dir/3_car_fueling.cpp.obj"
+  "CMakeFiles/week_3.dir/6_maximum_number_of_prizes.cpp.obj"
   "libweek_3.dll.a"
   "week_3.exe"
   "week_3.exe.manifest"

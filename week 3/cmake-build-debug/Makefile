@@ -47,10 +47,10 @@ RM = "C:\Users\xiaom\Desktop\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\xiaom\Desktop\coursera_exerc\week 3"
+CMAKE_SOURCE_DIR = "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\xiaom\Desktop\coursera_exerc\week 3\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 3\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\xiaom\Desktop\coursera_exerc\week 3\cmake-build-debug\CMakeFiles" "C:\Users\xiaom\Desktop\coursera_exerc\week 3\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 3\cmake-build-debug\CMakeFiles" "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 3\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\xiaom\Desktop\coursera_exerc\week 3\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 3\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ week_3/fast:
 	$(MAKE) -f CMakeFiles\week_3.dir\build.make CMakeFiles/week_3.dir/build
 .PHONY : week_3/fast
 
-3_car_fueling.obj: 3_car_fueling.cpp.obj
+6_maximum_number_of_prizes.obj: 6_maximum_number_of_prizes.cpp.obj
 
-.PHONY : 3_car_fueling.obj
+.PHONY : 6_maximum_number_of_prizes.obj
 
 # target to build an object file
-3_car_fueling.cpp.obj:
-	$(MAKE) -f CMakeFiles\week_3.dir\build.make CMakeFiles/week_3.dir/3_car_fueling.cpp.obj
-.PHONY : 3_car_fueling.cpp.obj
+6_maximum_number_of_prizes.cpp.obj:
+	$(MAKE) -f CMakeFiles\week_3.dir\build.make CMakeFiles/week_3.dir/6_maximum_number_of_prizes.cpp.obj
+.PHONY : 6_maximum_number_of_prizes.cpp.obj
 
-3_car_fueling.i: 3_car_fueling.cpp.i
+6_maximum_number_of_prizes.i: 6_maximum_number_of_prizes.cpp.i
 
-.PHONY : 3_car_fueling.i
+.PHONY : 6_maximum_number_of_prizes.i
 
 # target to preprocess a source file
-3_car_fueling.cpp.i:
-	$(MAKE) -f CMakeFiles\week_3.dir\build.make CMakeFiles/week_3.dir/3_car_fueling.cpp.i
-.PHONY : 3_car_fueling.cpp.i
+6_maximum_number_of_prizes.cpp.i:
+	$(MAKE) -f CMakeFiles\week_3.dir\build.make CMakeFiles/week_3.dir/6_maximum_number_of_prizes.cpp.i
+.PHONY : 6_maximum_number_of_prizes.cpp.i
 
-3_car_fueling.s: 3_car_fueling.cpp.s
+6_maximum_number_of_prizes.s: 6_maximum_number_of_prizes.cpp.s
 
-.PHONY : 3_car_fueling.s
+.PHONY : 6_maximum_number_of_prizes.s
 
 # target to generate assembly for a file
-3_car_fueling.cpp.s:
-	$(MAKE) -f CMakeFiles\week_3.dir\build.make CMakeFiles/week_3.dir/3_car_fueling.cpp.s
-.PHONY : 3_car_fueling.cpp.s
+6_maximum_number_of_prizes.cpp.s:
+	$(MAKE) -f CMakeFiles\week_3.dir\build.make CMakeFiles/week_3.dir/6_maximum_number_of_prizes.cpp.s
+.PHONY : 6_maximum_number_of_prizes.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... week_3
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 3_car_fueling.obj
-	@echo ... 3_car_fueling.i
-	@echo ... 3_car_fueling.s
+	@echo ... 6_maximum_number_of_prizes.obj
+	@echo ... 6_maximum_number_of_prizes.i
+	@echo ... 6_maximum_number_of_prizes.s
 .PHONY : help
 
 
