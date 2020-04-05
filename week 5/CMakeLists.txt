@@ -4,4 +4,4 @@ project(week_5)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(week_5
-        money_change.cpp)
+        edit_distance.cpp)

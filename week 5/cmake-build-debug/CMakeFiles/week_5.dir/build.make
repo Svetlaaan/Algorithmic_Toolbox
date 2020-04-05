@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5"
+CMAKE_SOURCE_DIR = "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/week_5.dir/depend.make
@@ -56,32 +56,32 @@ include CMakeFiles/week_5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/week_5.dir/flags.make
 
-CMakeFiles/week_5.dir/money_change.cpp.obj: CMakeFiles/week_5.dir/flags.make
-CMakeFiles/week_5.dir/money_change.cpp.obj: ../money_change.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/week_5.dir/money_change.cpp.obj"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\week_5.dir\money_change.cpp.obj -c "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5\money_change.cpp"
+CMakeFiles/week_5.dir/edit_distance.cpp.obj: CMakeFiles/week_5.dir/flags.make
+CMakeFiles/week_5.dir/edit_distance.cpp.obj: ../edit_distance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/week_5.dir/edit_distance.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\week_5.dir\edit_distance.cpp.obj -c "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5\edit_distance.cpp"
 
-CMakeFiles/week_5.dir/money_change.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/week_5.dir/money_change.cpp.i"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5\money_change.cpp" > CMakeFiles\week_5.dir\money_change.cpp.i
+CMakeFiles/week_5.dir/edit_distance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/week_5.dir/edit_distance.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5\edit_distance.cpp" > CMakeFiles\week_5.dir\edit_distance.cpp.i
 
-CMakeFiles/week_5.dir/money_change.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/week_5.dir/money_change.cpp.s"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5\money_change.cpp" -o CMakeFiles\week_5.dir\money_change.cpp.s
+CMakeFiles/week_5.dir/edit_distance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/week_5.dir/edit_distance.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5\edit_distance.cpp" -o CMakeFiles\week_5.dir\edit_distance.cpp.s
 
 # Object files for target week_5
 week_5_OBJECTS = \
-"CMakeFiles/week_5.dir/money_change.cpp.obj"
+"CMakeFiles/week_5.dir/edit_distance.cpp.obj"
 
 # External object files for target week_5
 week_5_EXTERNAL_OBJECTS =
 
-week_5.exe: CMakeFiles/week_5.dir/money_change.cpp.obj
+week_5.exe: CMakeFiles/week_5.dir/edit_distance.cpp.obj
 week_5.exe: CMakeFiles/week_5.dir/build.make
 week_5.exe: CMakeFiles/week_5.dir/linklibs.rsp
 week_5.exe: CMakeFiles/week_5.dir/objects1.rsp
 week_5.exe: CMakeFiles/week_5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable week_5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable week_5.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\week_5.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/week_5.dir/clean:
 .PHONY : CMakeFiles/week_5.dir/clean
 
 CMakeFiles/week_5.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5" "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5" "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug" "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug" "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug\CMakeFiles\week_5.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5" "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5" "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug" "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug" "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug\CMakeFiles\week_5.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/week_5.dir/depend
 

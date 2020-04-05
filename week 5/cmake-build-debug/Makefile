@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5"
+CMAKE_SOURCE_DIR = "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug\CMakeFiles" "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug\CMakeFiles" "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\xiaom\Desktop\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ week_5/fast:
 	$(MAKE) -f CMakeFiles\week_5.dir\build.make CMakeFiles/week_5.dir/build
 .PHONY : week_5/fast
 
-money_change.obj: money_change.cpp.obj
+edit_distance.obj: edit_distance.cpp.obj
 
-.PHONY : money_change.obj
+.PHONY : edit_distance.obj
 
 # target to build an object file
-money_change.cpp.obj:
-	$(MAKE) -f CMakeFiles\week_5.dir\build.make CMakeFiles/week_5.dir/money_change.cpp.obj
-.PHONY : money_change.cpp.obj
+edit_distance.cpp.obj:
+	$(MAKE) -f CMakeFiles\week_5.dir\build.make CMakeFiles/week_5.dir/edit_distance.cpp.obj
+.PHONY : edit_distance.cpp.obj
 
-money_change.i: money_change.cpp.i
+edit_distance.i: edit_distance.cpp.i
 
-.PHONY : money_change.i
+.PHONY : edit_distance.i
 
 # target to preprocess a source file
-money_change.cpp.i:
-	$(MAKE) -f CMakeFiles\week_5.dir\build.make CMakeFiles/week_5.dir/money_change.cpp.i
-.PHONY : money_change.cpp.i
+edit_distance.cpp.i:
+	$(MAKE) -f CMakeFiles\week_5.dir\build.make CMakeFiles/week_5.dir/edit_distance.cpp.i
+.PHONY : edit_distance.cpp.i
 
-money_change.s: money_change.cpp.s
+edit_distance.s: edit_distance.cpp.s
 
-.PHONY : money_change.s
+.PHONY : edit_distance.s
 
 # target to generate assembly for a file
-money_change.cpp.s:
-	$(MAKE) -f CMakeFiles\week_5.dir\build.make CMakeFiles/week_5.dir/money_change.cpp.s
-.PHONY : money_change.cpp.s
+edit_distance.cpp.s:
+	$(MAKE) -f CMakeFiles\week_5.dir\build.make CMakeFiles/week_5.dir/edit_distance.cpp.s
+.PHONY : edit_distance.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... week_5
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... money_change.obj
-	@echo ... money_change.i
-	@echo ... money_change.s
+	@echo ... edit_distance.obj
+	@echo ... edit_distance.i
+	@echo ... edit_distance.s
 .PHONY : help
 
 

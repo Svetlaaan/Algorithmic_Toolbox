@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/week_5.dir/money_change.cpp.obj"
+  "CMakeFiles/week_5.dir/edit_distance.cpp.obj"
   "libweek_5.dll.a"
   "week_5.exe"
   "week_5.exe.manifest"

@@ -6,10 +6,10 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/xiaom/Desktop/coursera_exerc/Algorithmic_Toolbox/week 5/money_change.cpp
+C:/Users/xiaom/Desktop/programming/coursera_exerc/Algorithmic_Toolbox/week 5/edit_distance.cpp
 iostream
 -
-climits
+string
 -
 vector
 -
