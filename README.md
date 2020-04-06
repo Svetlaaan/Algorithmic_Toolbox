@@ -10,6 +10,7 @@ The course covers basic algorithmic techniques and ideas for computational probl
    -divide and conquer  
    -greedy algorithms  
    -dynamic programming
+   ***
     
 #### WEEK 1 - Programming Challenges
 #### WEEK 2 - Algorithmic Warm-up  
