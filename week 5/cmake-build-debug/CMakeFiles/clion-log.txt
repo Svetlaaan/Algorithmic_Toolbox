@@ -1,4 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -G "CodeBlocks - MinGW Makefiles" "C:\Users\xiaom\Desktop\programming\coursera_exerc\Algorithmic_Toolbox\week 5"
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/xiaom/Desktop/programming/coursera_exerc/Algorithmic_Toolbox/week 5/cmake-build-debug

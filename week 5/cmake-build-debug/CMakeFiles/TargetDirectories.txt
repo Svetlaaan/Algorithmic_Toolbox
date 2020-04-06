@@ -1,3 +1,0 @@
-C:/Users/xiaom/Desktop/programming/coursera_exerc/Algorithmic_Toolbox/week 5/cmake-build-debug/CMakeFiles/week_5.dir
-C:/Users/xiaom/Desktop/programming/coursera_exerc/Algorithmic_Toolbox/week 5/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/xiaom/Desktop/programming/coursera_exerc/Algorithmic_Toolbox/week 5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
