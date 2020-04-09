@@ -8,17 +8,6 @@ using std::max;
 
 int find(int i, vector<int> & stops, int currRef, int tank, int numRef, int dist, int n)
 {
-   /* while (i <= n)
-    {
-        while (i <= n && (stops[i] - currRef <= tank))  //? (currRef = stops[i]) && (numRef++) : 0;
-            i++;
-        i--;
-        currRef = stops[i];
-        if (currRef == dist)
-            return numRef;
-        numRef++;
-    }
-    return currRef;*/
     for (i = 0; i < (int)stops.size(); ++i) {
         if(stops[i + 1] - stops[i]>= tank)
             if (stops[i + 1] - currRef > tank) {

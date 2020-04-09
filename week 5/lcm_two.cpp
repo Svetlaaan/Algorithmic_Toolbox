@@ -20,23 +20,6 @@ int lcs2(vector<int> &a, vector<int> &b) {
         }
     }
     return L[m][n];
-//    int seq = 0;
-//    int j = 0;
-//
-//    for (int i = 0; i <= a.size(); i++)
-//    {
-//        if (j > b.size())
-//            break ;
-//        for (j = 0; j <= b.size() - 1; j++)
-//        {
-//            while (a[i] == b[j]) {
-//                seq += 1;
-//                i++;
-//                j++;
-//            }
-//        }
-//    }
-//    return seq;
 }
 
 int main() {

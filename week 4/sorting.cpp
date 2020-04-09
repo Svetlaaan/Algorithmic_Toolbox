@@ -24,21 +24,6 @@ vector<int> partition3(vector<long> &a, int l, int r)
     }
     return ret;
 }
-//    for (int i = l + 1; i <= r; i++)
-//    {
-//        if (a[i] <= x)
-//        {
-//            ret[0]++;
-//            swap(a[i], a[ret[0]]);
-//        }
-//    }
-//    swap(a[l], a[ret[0]]);
-//    ret[1] = ret[0] - 1;
-//    for (int i = l; i < ret[0] && ret[1] >= l && ret[1] > i; i++)
-//        if (a[ret[0]] == a[i])
-//            swap(a[i], a[ret[1]--]);
-//    ret[1]++;
-//    return ret;
 
 void randomized_quick_sort(vector<long> &a, int l, int r)
 {
@@ -62,8 +47,6 @@ void randomized_quick_sort(vector<long> &a, int l, int r)
             r = z[0] - 1;
         }
     }
-//    randomized_quick_sort(a, l, z[0] - 1);
-//    randomized_quick_sort(a, z[1] + 1, r);
 }
 
 int main()

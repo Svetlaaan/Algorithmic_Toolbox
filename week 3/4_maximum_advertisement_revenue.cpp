@@ -4,8 +4,6 @@
 
 using std::vector;
 
-// Сортируем оба массива по возрастанию, попробуем пузырьковую сортировку
-
 long long max_dot_product(vector<int> a, vector<int> b, size_t n)
 {
     long long result = 0;

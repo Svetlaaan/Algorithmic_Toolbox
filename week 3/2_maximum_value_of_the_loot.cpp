@@ -27,26 +27,9 @@ double get_optimal_value(int capacity, vector<int> weights, vector<int> values, 
     int i;
     int max;
     vector<double> per1(n);
-    //double a = 0.0;
 
     for (i = 0; i < n; ++i)
         per1[i] = (double)values[i] / weights[i];
-    /*while (!per1.empty())
-    {
-        max = max_val_per1(n, per1);
-        if (a <= capacity) {
-            if (a == capacity)
-                return value;
-            else if (weights[max] + a <= capacity) {
-                a += (double)weights[max];
-                value += (double)values[max];
-            }
-            else if (weights[max] + a > capacity) {
-                a += ((double)weights[max] / capacity)/weights[max] * 100;
-                value += (((double)values[max]/weights[max]) * a);
-            }
-        }
-    }*/
     for (i = 0; i < n; i++)
     {
         if (capacity == 0)
